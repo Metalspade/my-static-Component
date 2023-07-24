@@ -1,0 +1,106 @@
+CSS
+
+body{
+    background-image:linear-gradient(to right, white,grey);
+}
+body{
+    background-image:linear-gradient(to right, white,grey);
+}
+
+.user-profile-card {
+  border: 1px solid #bdbdbd;
+  padding: 20px;
+  margin: 150px auto;
+  width: 600px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-image: linear-gradient(to right, grey, white);
+}
+
+.user-profile-card .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.user-profile-card img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid grey;
+  margin-right: 20px;
+}
+
+.user-profile-card h2,
+.user-profile-card h5 {
+  margin: 0;
+}
+
+.user-profile-card h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-profile-card h5 {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.user-profile-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-around; /* Add space between the stat sections */
+  margin-top: 20px; /* Add some space between the paragraph and stats */
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.user-stats h6 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-stats p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.user-profile-card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.user-profile-card .contact-btn {
+  background-image: linear-gradient(to right, green , #dc2430);
+  color: white;
+  border-radius: 15px;
+}
+
+.user-profile-card .profile-btn {
+  background-image: linear-gradient(to right, green , #dc2430);
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px; /* Add space between the buttons */
+}
+.user-profile-card .contact-btn:hover,
+.user-profile-card .profile-btn:hover {
+  background-image: linear-gradient(to right, #dc2430, green);
+  color: white;
+}
+
