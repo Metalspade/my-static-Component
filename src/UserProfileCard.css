@@ -15,7 +15,7 @@ body{
   text-align: center;
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  background-image: linear-gradient(to right, grey, white);
+  background-image: linear-gradient(to right, #C7FF33, white);
 }
 
 .user-profile-card .heading {
@@ -87,20 +87,21 @@ body{
 }
 
 .user-profile-card .contact-btn {
-  background-image: linear-gradient(to right, green , #dc2430);
-  color: white;
+  background-image: linear-gradient(to right, green , #33FFAC );
+  color:white;
   border-radius: 15px;
 }
 
 .user-profile-card .profile-btn {
-  background-image: linear-gradient(to right, green , #dc2430);
+  background-image: linear-gradient(to right, green , #33FFAC );
   color: white;
   border-radius: 15px;
   margin-left: 10px; /* Add space between the buttons */
 }
 .user-profile-card .contact-btn:hover,
 .user-profile-card .profile-btn:hover {
-  background-image: linear-gradient(to right, #dc2430, green);
-  color: white;
+  background-image: linear-gradient(to right, white, #C7FF33);
+  color: black;
 }
+
 
